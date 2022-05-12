@@ -10,7 +10,7 @@ interface PropTypes {
 
 const Main: FC<PropTypes> = (props: PropTypes) => {
   return (<>
-    Simple boilerplate
+    Good job
   </>);
 };
 

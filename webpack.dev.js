@@ -7,6 +7,6 @@ module.exports = smp.wrap(merge(common, {
   mode: 'development',
   devtool: 'inline-source-map',
   devServer: {
-    contentBase: './dist',
+    static: './dist',
   },
 }));
